@@ -14,6 +14,11 @@
 		A3EE67211F28D65900A2A663 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3EE671F1F28D65900A2A663 /* LaunchScreen.storyboard */; };
 		A3EE672C1F28D65900A2A663 /* HJPageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EE672B1F28D65900A2A663 /* HJPageViewTests.swift */; };
 		A3EE67371F28D65900A2A663 /* HJPageViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EE67361F28D65900A2A663 /* HJPageViewUITests.swift */; };
+		A3EE67461F28D70100A2A663 /* HJTitltView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EE67451F28D70100A2A663 /* HJTitltView.swift */; };
+		A3EE67481F28D74B00A2A663 /* HJTitleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EE67471F28D74B00A2A663 /* HJTitleStyle.swift */; };
+		A3EE674A1F28D86700A2A663 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EE67491F28D86700A2A663 /* UIColor-Extension.swift */; };
+		A3EE674C1F28D8C500A2A663 /* HJContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EE674B1F28D8C400A2A663 /* HJContentView.swift */; };
+		A3EE674E1F28D91500A2A663 /* HJPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EE674D1F28D91500A2A663 /* HJPageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		A3EE67321F28D65900A2A663 /* HJPageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HJPageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3EE67361F28D65900A2A663 /* HJPageViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HJPageViewUITests.swift; sourceTree = "<group>"; };
 		A3EE67381F28D65900A2A663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3EE67451F28D70100A2A663 /* HJTitltView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HJTitltView.swift; sourceTree = "<group>"; };
+		A3EE67471F28D74B00A2A663 /* HJTitleStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HJTitleStyle.swift; sourceTree = "<group>"; };
+		A3EE67491F28D86700A2A663 /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
+		A3EE674B1F28D8C400A2A663 /* HJContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HJContentView.swift; sourceTree = "<group>"; };
+		A3EE674D1F28D91500A2A663 /* HJPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HJPageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,7 @@
 		A3EE67151F28D65900A2A663 /* HJPageView */ = {
 			isa = PBXGroup;
 			children = (
+				A3EE67441F28D67400A2A663 /* HJPageView */,
 				A3EE67161F28D65900A2A663 /* AppDelegate.swift */,
 				A3EE67181F28D65900A2A663 /* ViewController.swift */,
 				A3EE671A1F28D65900A2A663 /* Main.storyboard */,
@@ -123,6 +134,18 @@
 				A3EE67381F28D65900A2A663 /* Info.plist */,
 			);
 			path = HJPageViewUITests;
+			sourceTree = "<group>";
+		};
+		A3EE67441F28D67400A2A663 /* HJPageView */ = {
+			isa = PBXGroup;
+			children = (
+				A3EE67491F28D86700A2A663 /* UIColor-Extension.swift */,
+				A3EE674D1F28D91500A2A663 /* HJPageView.swift */,
+				A3EE67451F28D70100A2A663 /* HJTitltView.swift */,
+				A3EE67471F28D74B00A2A663 /* HJTitleStyle.swift */,
+				A3EE674B1F28D8C400A2A663 /* HJContentView.swift */,
+			);
+			name = HJPageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +282,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3EE674C1F28D8C500A2A663 /* HJContentView.swift in Sources */,
 				A3EE67191F28D65900A2A663 /* ViewController.swift in Sources */,
+				A3EE674A1F28D86700A2A663 /* UIColor-Extension.swift in Sources */,
+				A3EE674E1F28D91500A2A663 /* HJPageView.swift in Sources */,
 				A3EE67171F28D65900A2A663 /* AppDelegate.swift in Sources */,
+				A3EE67481F28D74B00A2A663 /* HJTitleStyle.swift in Sources */,
+				A3EE67461F28D70100A2A663 /* HJTitltView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
