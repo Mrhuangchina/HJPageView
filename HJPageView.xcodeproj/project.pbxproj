@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A3B18AAF1F34B15E00C0E3BC /* EmoticonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B18AAC1F34B15E00C0E3BC /* EmoticonViewController.swift */; };
+		A3B18AB01F34B15E00C0E3BC /* HJPageCollectionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B18AAD1F34B15E00C0E3BC /* HJPageCollectionLayout.swift */; };
+		A3B18AB11F34B15E00C0E3BC /* HJPageCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B18AAE1F34B15E00C0E3BC /* HJPageCollectionView.swift */; };
 		A3EE67171F28D65900A2A663 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EE67161F28D65900A2A663 /* AppDelegate.swift */; };
 		A3EE67191F28D65900A2A663 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EE67181F28D65900A2A663 /* ViewController.swift */; };
 		A3EE671C1F28D65900A2A663 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3EE671A1F28D65900A2A663 /* Main.storyboard */; };
@@ -39,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A3B18AAC1F34B15E00C0E3BC /* EmoticonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmoticonViewController.swift; path = ../../../../Mrhuang/Desktop/HJPageView/HJPageView/EmoticonViewController.swift; sourceTree = "<group>"; };
+		A3B18AAD1F34B15E00C0E3BC /* HJPageCollectionLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HJPageCollectionLayout.swift; path = ../../../../Mrhuang/Desktop/HJPageView/HJPageView/HJPageCollectionLayout.swift; sourceTree = "<group>"; };
+		A3B18AAE1F34B15E00C0E3BC /* HJPageCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HJPageCollectionView.swift; path = ../../../../Mrhuang/Desktop/HJPageView/HJPageView/HJPageCollectionView.swift; sourceTree = "<group>"; };
 		A3EE67131F28D65900A2A663 /* HJPageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HJPageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3EE67161F28D65900A2A663 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3EE67181F28D65900A2A663 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -110,6 +116,7 @@
 				A3EE67441F28D67400A2A663 /* HJPageView */,
 				A3EE67161F28D65900A2A663 /* AppDelegate.swift */,
 				A3EE67181F28D65900A2A663 /* ViewController.swift */,
+				A3B18AAC1F34B15E00C0E3BC /* EmoticonViewController.swift */,
 				A3EE671A1F28D65900A2A663 /* Main.storyboard */,
 				A3EE671D1F28D65900A2A663 /* Assets.xcassets */,
 				A3EE671F1F28D65900A2A663 /* LaunchScreen.storyboard */,
@@ -144,6 +151,8 @@
 				A3EE67451F28D70100A2A663 /* HJTitltView.swift */,
 				A3EE67471F28D74B00A2A663 /* HJTitleStyle.swift */,
 				A3EE674B1F28D8C400A2A663 /* HJContentView.swift */,
+				A3B18AAD1F34B15E00C0E3BC /* HJPageCollectionLayout.swift */,
+				A3B18AAE1F34B15E00C0E3BC /* HJPageCollectionView.swift */,
 			);
 			name = HJPageView;
 			sourceTree = "<group>";
@@ -282,10 +291,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3B18AB01F34B15E00C0E3BC /* HJPageCollectionLayout.swift in Sources */,
 				A3EE674C1F28D8C500A2A663 /* HJContentView.swift in Sources */,
 				A3EE67191F28D65900A2A663 /* ViewController.swift in Sources */,
+				A3B18AB11F34B15E00C0E3BC /* HJPageCollectionView.swift in Sources */,
 				A3EE674A1F28D86700A2A663 /* UIColor-Extension.swift in Sources */,
 				A3EE674E1F28D91500A2A663 /* HJPageView.swift in Sources */,
+				A3B18AAF1F34B15E00C0E3BC /* EmoticonViewController.swift in Sources */,
 				A3EE67171F28D65900A2A663 /* AppDelegate.swift in Sources */,
 				A3EE67481F28D74B00A2A663 /* HJTitleStyle.swift in Sources */,
 				A3EE67461F28D70100A2A663 /* HJTitltView.swift in Sources */,
@@ -533,6 +545,7 @@
 				A3EE673D1F28D65900A2A663 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3EE673E1F28D65900A2A663 /* Build configuration list for PBXNativeTarget "HJPageViewTests" */ = {
 			isa = XCConfigurationList;
@@ -541,6 +554,7 @@
 				A3EE67401F28D65900A2A663 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3EE67411F28D65900A2A663 /* Build configuration list for PBXNativeTarget "HJPageViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +563,7 @@
 				A3EE67431F28D65900A2A663 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

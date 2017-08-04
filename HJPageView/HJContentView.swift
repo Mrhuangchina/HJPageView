@@ -98,6 +98,7 @@ extension HJContentView : UICollectionViewDelegate {
     func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
         
         delegate?.TitleLabelEnableScroll?(self)
+        scrollView.isScrollEnabled = true
         
     }
     
@@ -108,6 +109,8 @@ extension HJContentView : UICollectionViewDelegate {
             
             
             delegate?.TitleLabelEnableScroll?(self)
+        } else {
+            scrollView.isScrollEnabled = false
         }
     }
     
